@@ -1,2 +1,2 @@
 # MiracleNikkiJp_items
-ミラクルニキのアイテム表
+ミラクルニキのアイテム表 MiracleNikkiJp_chart で使われるデータです
