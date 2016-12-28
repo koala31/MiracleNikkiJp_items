@@ -14,12 +14,6 @@ if InStr(src_filename, "\") = 0 then
     src_filename = cwd_name & "\" & src_filename
 end if
 
-' Check extension of specified file
-if right(src_filename, 4) <> ".csv" then
-    WScript.echo(usage_message)
-    WScript.Quit(-1)
-end if
-
 ' Open source stream
 set src_stream = CreateObject("ADODB.Stream")
 ' Check charset
